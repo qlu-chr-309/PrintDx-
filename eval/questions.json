@@ -1,0 +1,74 @@
+[
+  {
+    "id": "q01",
+    "query": "细网点粘连发糊，层次丢失，怎么处理？",
+    "defect_label": "糊版",
+    "must_include_any": ["水墨", "墨量", "清洗", "糊版"]
+  },
+  {
+    "id": "q02",
+    "query": "多色印刷露白边、套合不准，原因有哪些？",
+    "defect_label": "套印不准",
+    "must_include_any": ["套准", "张力", "规矩", "咬牙", "0.20"]
+  },
+  {
+    "id": "q03",
+    "query": "墨层出现细小漏白点，像针孔，如何排查？",
+    "defect_label": "针孔",
+    "must_include_any": ["气泡", "过滤", "电晕", "表面张力", "消泡"]
+  },
+  {
+    "id": "q04",
+    "query": "连续生产颜色越印越偏，批次色差大",
+    "defect_label": "色差",
+    "must_include_any": ["黏度", "ΔE", "色差", "签样", "分光"]
+  },
+  {
+    "id": "q05",
+    "query": "印面有刀丝状墨痕或脏点",
+    "defect_label": "墨斑",
+    "must_include_any": ["刮刀", "杂质", "清洁", "墨点"]
+  },
+  {
+    "id": "q06",
+    "query": "图文出现双轮廓重影",
+    "defect_label": "重影",
+    "must_include_any": ["齿轮", "轴承", "咬牙", "侧隙", "重影"]
+  },
+  {
+    "id": "q07",
+    "query": "收纸堆背面被墨迹污染",
+    "defect_label": "背面蹭脏",
+    "must_include_any": ["喷粉", "干燥", "堆码", "蹭脏"]
+  },
+  {
+    "id": "q08",
+    "query": "纸面起毛、掉粉，印面毛糙",
+    "defect_label": "拉毛",
+    "must_include_any": ["黏", "压力", "纸张", "拉毛"]
+  },
+  {
+    "id": "q09",
+    "query": "胶带一撕墨就掉，附着力差",
+    "defect_label": "附着力不良",
+    "must_include_any": ["电晕", "表印", "里印", "达因", "附着"]
+  },
+  {
+    "id": "q10",
+    "query": "印刷方向出现墨杠或水杠条纹",
+    "defect_label": "条杠",
+    "must_include_any": ["墨辊", "压力", "水辊", "杠"]
+  },
+  {
+    "id": "q11",
+    "query": "空白处挂脏、非图文区着墨",
+    "defect_label": "墨斑",
+    "must_include_any": ["水", "脏", "水辊", "墨"]
+  },
+  {
+    "id": "q12",
+    "query": "凹印堵网、图案发虚",
+    "defect_label": "糊版",
+    "must_include_any": ["网穴", "清洗", "干燥", "堵"]
+  }
+]
